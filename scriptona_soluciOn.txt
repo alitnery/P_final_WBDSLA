@@ -1,0 +1,28 @@
+####AquI inicia mi descripciOn####
+
+Primero descargue la informaciOn con:
+
+git clone git@github.com:WomenBioinfoDataScLA/proyecto_final_pre-camp_wbds_la-alitnery.git
+ls
+cd proyecto_final_pre-camp_wbds_la-alitnery/
+ls
+cd paso_1
+ls
+nano instrucciones.txt 
+cd ..
+nano README.md
+cd ..
+cd ..
+
+####Creo el repositorio####
+
+Primero voy a GITHUB y creo un repositorio nuevo y copio el link para clonarlo en mi terminal.
+
+git clone git@github.com:alitnery/P_final_WBDSLA.git
+ls
+cd proyecto_final_pre-camp_wbds_la-alitnery/
+touch scriptoma_soluciOn.txt
+nano scriptoma_soluciOn.txt
+
+####AquI empiezo a agregar contenido####
+
