@@ -26,3 +26,65 @@ nano scriptoma_soluciOn.txt
 
 ####AquI empiezo a agregar contenido####
 
+###Inicio con las instrucciones####
+cd paso_2
+ls
+nano instrucciones.txt
+cd ..
+cd paso_5
+ls
+instrucciones.txt
+cd ..
+cd paso_10
+ls
+nano instrucciones.txt
+cd ..
+####Aquí la instrucción es descargar un archivo e indecar cuantas veces esta la palabra freedom####
+wget url https://www.gnu.org/licenses/gpl-3.0.txt
+ls
+nano gpl-3.0.txt 
+grep -c "freedom" gpl-3.0.txt
+8
+####En el archivo 8 indicó que cuántas lisynas había####
+wget url https://www.rcsb.org/fasta/entry/7PND
+ls
+nano 7PND
+grep -c "K" 7PND 
+1
+cd paso_1
+nano instrucciones.txt 
+
+####Aquí no hay nada :( y me estanqué, volví a leer y...####
+
+Ejecuté: 
+
+bash
+./welcome.sh
+
+que me llevó nuevamente al paso 2
+
+####REpetí los pasos y cambie el último comando####
+
+grep -c "K" 7PND
+1
+grep -o "K" 7PND | wc -l
+24
+
+####Y corroboré el anterior####
+
+grep -o "freedom." gpl-3.0.txt | wc -l
+8
+####Continuamos####
+cd paso_24
+nano instrucciones.txt
+cd ..
+wget url https://www.alphafold.ebi.ac.uk/entry/F4HVG8
+
+####No me da####
+Aplico:
+
+stat F4HVG8
+
+####No me da "peso"####
+#####voy a dormir, ahorita mi cerebro ya no esta concentrado####
+
