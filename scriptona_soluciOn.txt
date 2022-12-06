@@ -138,4 +138,26 @@ a este desafío 🤗*
 
 rm -r paso_
 
-####Me quede con 3 archivos ####
+####Me quede con 3 archivos,9, 20 y 42. Los cuales abrI y revise ####
+####En el 20 me pedio crear un archivo y contar cuantos caracteres habIa en el pArrafo####
+
+R= touch naranjo.txt
+R= nano naranjo.txt
+R= grep -c naranjo.txt
+R= 91
+
+####Y como ya lo habIa revisado en 91 no habIa nada. DespuEs fui al 42 y en este me indicO que la frase se conformaba pegando los strings de los archivos####
+#### No entendi####
+#### Y no estoy segura de si comprendo que es un string####
+####La definiciOn que busque dice:  "a sequence of characters, either as a literal constant or as some kind of variable" ####
+####Pero si los strings conforman la frase no entendI, osea el nUmero de cada archivo?####
+
+###Y ya he terminado####
+
+###TambiEn mencionar que en unos archivos el texto venIa escrito doble####
+
+####GRACIAS A USTEDES POR LEERME TODA Y ESPERO QUE LO HAYA HECHO BIEN####
+
+#####ps. AquI en mexico con las 8:44 y supongo que en la hora acordada de argentina estamos a unos minutos de dar las 12pm una disculpa por no enviarlo antes#####
+
+Yo tengo 161 lineas y solo se ve en github hasta la 141 y si se actualizo el commint y no el texto?
