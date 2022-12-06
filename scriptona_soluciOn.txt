@@ -107,7 +107,35 @@ R= *12*
 #### Los pasos que abri fueron en el siguiente orden:####
 *2 -> 5 -> 10 -> 8 -> 24 -> 7 -> 12 -> 14*
 
-####Entonces creo que hice algo mal y no sE con certeza en quE punto####
+####Entonces creo que hice algo mal y no sE con certeza en quE punto fue####
+####Ahora como inicie en el punto dos y vi que le uno no tiene nada Util paso al 3####
 
+cd..
+cd paso_3
+nano instrucciones.txt
+cd..
+cd paso_9
+nano instrucciones.txt
 
+####Debo extraer archivo .md en el archivo posta_final.txt
 
+R= *cat *.md>posta_final.txt*
+ls
+nano posta_final.txt
+
+###Vuala!###
+####Obtuve el mensaje####
+
+#Clara campoamor "se aprende ejerciendo la Libertad" Gracias por sumarte a este desafIo#
+
+####AsI l escribo por que seguro igual me falto algo por que originalmente me saliO asI####
+
+R= *Clara Campoamor
+aprende ejerciéndola”“La libertad se Gracias por sumarte
+a este desafío 🤗*
+
+####Pero me quedO la duda de por que me dio 14 y abri todos los demas archivos  y eliminE los que no tenian nada util y los que ya habIa ocupado con:####
+
+rm -r paso_
+
+####Me quede con ####
