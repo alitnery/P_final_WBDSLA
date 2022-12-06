@@ -1,8 +1,10 @@
+##Proyecto final pre-camp##
+
 ####AquI inicia mi descripciOn####
 
 Primero descargue la informaciOn con:
 
-git clone git@github.com:WomenBioinfoDataScLA/proyecto_final_pre-camp_wbds_la-alitnery.git
+R= *git clone git@github.com:WomenBioinfoDataScLA/proyecto_final_pre-camp_wbds_la-alitnery.git*
 ls
 cd proyecto_final_pre-camp_wbds_la-alitnery/
 ls
@@ -10,7 +12,8 @@ cd paso_1
 ls
 nano instrucciones.txt 
 cd ..
-nano README.md
+####Iba abrir, archivo por archivo pero vi el readme y ahI empecE####
+R= *nano README.md*
 cd ..
 cd ..
 
@@ -18,10 +21,10 @@ cd ..
 
 Primero voy a GITHUB y creo un repositorio nuevo y copio el link para clonarlo en mi terminal.
 
-git clone git@github.com:alitnery/P_final_WBDSLA.git
+R= *git clone git@github.com:alitnery/P_final_WBDSLA.git*
 ls
 cd proyecto_final_pre-camp_wbds_la-alitnery/
-touch scriptoma_soluciOn.txt
+R= *touch scriptoma_soluciOn.txt*
 nano scriptoma_soluciOn.txt
 
 ####AquI empiezo a agregar contenido####
@@ -40,16 +43,16 @@ ls
 nano instrucciones.txt
 cd ..
 ####Aquí la instrucción es descargar un archivo e indecar cuantas veces esta la palabra freedom####
-wget url https://www.gnu.org/licenses/gpl-3.0.txt
+R= *wget url https://www.gnu.org/licenses/gpl-3.0.txt*
 ls
 nano gpl-3.0.txt 
-grep -c "freedom" gpl-3.0.txt
-8
+R= *grep -c "freedom" gpl-3.0.txt*
+R= *8*
 ####En el archivo 8 indicó que cuántas lisynas había####
-wget url https://www.rcsb.org/fasta/entry/7PND
+R= *wget url https://www.rcsb.org/fasta/entry/7PND*
 ls
 nano 7PND
-grep -c "K" 7PND 
+R= *grep -c "K" 7PND* 
 1
 cd paso_1
 nano instrucciones.txt 
@@ -67,24 +70,44 @@ que me llevó nuevamente al paso 2
 
 grep -c "K" 7PND
 1
-grep -o "K" 7PND | wc -l
-24
+R= *grep -o "K" 7PND | wc -l*
+R= *24*
 
 ####Y corroboré el anterior####
 
-grep -o "freedom." gpl-3.0.txt | wc -l
+R= *grep -o "freedom." gpl-3.0.txt | wc -l*
 8
 ####Continuamos####
 cd paso_24
 nano instrucciones.txt
+
+####Me pide el peso del archivo, asi que primero se descarga para poder obtener el resultado####
 cd ..
 wget url https://www.alphafold.ebi.ac.uk/entry/F4HVG8
 
-####No me da####
-Aplico:
+R= *ls -l | sort -k 4*
+R= 7.4k
 
-stat F4HVG8
+####Tomo como punto de partida el archivo 7 y continuo####
+cd paso_7
 
-####No me da "peso"####
-#####voy a dormir, ahorita mi cerebro ya no esta concentrado####
+#### Tiene tres archivos y me piden identificar cuantas secuencias >Homo sapiens hay####
+###AquI tome varios pasos para corroborar mi respuesta####
+
+R= *grep -c ">homo sapines" sequences.fasta*
+R= *6*
+R= *grep -c "homo sapines" sequences_II.fasta*
+R= *6*
+
+R= *cat *>Homo>Homo_sapiens.fasta*
+R= *grep -c ">Homo sapiens" Homo_sapiens.fasta*
+R= *12*
+
+####Men envIa al paso 14 pero no existe ese paso, asI que creo que hubo un error####
+#### Los pasos que abri fueron en el siguiente orden:####
+*2 -> 5 -> 10 -> 8 -> 24 -> 7 -> 12 -> 14*
+
+####Entonces creo que hice algo mal y no sE con certeza en quE punto####
+
+
 
